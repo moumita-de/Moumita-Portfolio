@@ -61,11 +61,5 @@ PUBLICATIONS
 CERTIFICATIONS
 
 ![image](https://github.com/moumita-de/dummywebsite/assets/145857739/e964a02f-862b-46fa-b808-882bcc1d7eb2)
-
 ![image](https://github.com/moumita-de/dummywebsite/assets/145857739/4fa32d36-3170-434f-be47-8376042cd447)
-
 ![image](https://github.com/moumita-de/dummywebsite/assets/145857739/462a5122-919b-42b0-b20b-bf30c3aafd3b)
-
-
-
-
