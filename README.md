@@ -1,7 +1,10 @@
-Welcome to Moumita's resume page.
+**Welcome to Moumita's resume!**
 
-Data Engineer, 5+ Years of IT Exp.
-Kolkata, India | +91-xxxxxxxxxx | moumitamoucob@gmail.com
+![Capture](https://github.com/moumita-de/dummywebsite/assets/145857739/485fbc57-86dc-4620-aefa-41bfcbe0a792)
+
+**Data Engineer, 5+ Years of IT Exp.**
+
+**Kolkata, India | +91-xxxxxxxxxx | moumitamoucob@gmail.com**
 
 WORK EXPERIENCE
 IBM India Pvt. Ltd.
@@ -17,13 +20,12 @@ Aug 2016 – Present
 •	Responsible for code deployment using GitHub. 
 •	Providing training to new or junior team members and monitoring them.
 
-PROJECT (SELECTIVE)
-
-CHUBB — Insurance 
+**PROJECT (SELECTIVE)**
+<sub>**CHUBB — Insurance** 
 
 •	The objective is to collect, organize and store data from different data sources to provide a single integrated source for reporting, analysis and decision support.
 
-Thomson Reuters — Telecommunication
+<sub>**Thomson Reuters — Telecommunication**
 
 •	The project objective was to provide a solution that will make the business forwarded by centralizing Tax and Accounting and providing a foundation to meet critical reporting needs, reduce data complexity, adhere to ever-changing regulations and provide complete customer insight.
 
