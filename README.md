@@ -6,6 +6,7 @@ Kolkata, India | +91-xxxxxxxxxx | moumitamoucob@gmail.com
 WORK EXPERIENCE
 IBM India Pvt. Ltd.
 Aug 2016 – Present
+
 •	Analyzing the requirement from the logical data model or from the mapping document. 
 •	Responsible for developing various mappings, workflow, task flow in SCD using Informatica Intelligent Cloud Services (IICS) and Informatica Power Center 10.2 to perform data integration. 
 •	Used various transformations like Source Qualifier, Aggregator, Filter, Router, Joiner, Sequence Generator, Lookup, Expression and update strategy to meet business logic. 
