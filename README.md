@@ -2,7 +2,7 @@
 
 ![Capture](https://github.com/moumita-de/dummywebsite/assets/145857739/485fbc57-86dc-4620-aefa-41bfcbe0a792)
 
-**Data Engineer, 5+ Years of IT Exp.** <br>
+**Data Engineer, 7+ Years of IT Exp.** <br>
 Kolkata, India | +91-xxxxxxxxxx | moumitamoucob@gmail.com
 
 ## $\textcolor{green}{WORK\ EXPERIENCE}$
