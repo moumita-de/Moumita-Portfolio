@@ -18,12 +18,17 @@ Aug 2016 – Present
 •	Providing training to new or junior team members and monitoring them.
 
 PROJECT (SELECTIVE)
+
 CHUBB — Insurance 
+
 •	The objective is to collect, organize and store data from different data sources to provide a single integrated source for reporting, analysis and decision support.
+
 Thomson Reuters — Telecommunication
+
 •	The project objective was to provide a solution that will make the business forwarded by centralizing Tax and Accounting and providing a foundation to meet critical reporting needs, reduce data complexity, adhere to ever-changing regulations and provide complete customer insight.
 
 SKILLS
+
 •	Data Integration 
 •	RDBMS 
 •	SQL 
@@ -32,23 +37,35 @@ SKILLS
 •	Bash/Unix
 
 TOOLS
+
 •	ICS/Informatica Power Center
 •	Expert JIRA - Expert 
 •	GitHub - Advanced
 
 AWARDS
+
 •	IBM Manager’s Choice Awards 
 •	IBM Deep Skill Adder Awards
 
 AWARDS & ACHIVEMENTS
+
 •	IBM Manager’s Choice Awards IBM 
 •	Deep Skill Adder Awards 
 •	GATE Qualified, 2014 
 •	Ministry of Human Resource Development Department Scholarship
 
 PUBLICATIONS
+
 •	Design of a compact planar quasi-Yagi antenna with enhanced gain and bandwidth using metamaterial, in: Journal, PIERS Journal, 2016 (ISBN/ISSN: 1937-6480).
 
 CERTIFICATIONS
-•	Azure Data fundamentals
-•	Azure data Engineer
+
+![image](https://github.com/moumita-de/dummywebsite/assets/145857739/e964a02f-862b-46fa-b808-882bcc1d7eb2)
+
+![image](https://github.com/moumita-de/dummywebsite/assets/145857739/4fa32d36-3170-434f-be47-8376042cd447)
+
+![image](https://github.com/moumita-de/dummywebsite/assets/145857739/462a5122-919b-42b0-b20b-bf30c3aafd3b)
+
+
+
+
