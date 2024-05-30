@@ -1,4 +1,4 @@
-Welcome to Moumita's resume page.
+![image](https://github.com/moumita-de/dummywebsite/assets/145857739/a1e4c0f4-3939-4896-81e6-6657706eb53c)Welcome to Moumita's resume page.
 
 Data Engineer, 5+ Years of IT Exp.
 Kolkata, India | +91-xxxxxxxxxx | moumitamoucob@gmail.com
@@ -17,3 +17,38 @@ Aug 2016 – Present
 •	Responsible for code deployment using GitHub. 
 •	Providing training to new or junior team members and monitoring them.
 
+PROJECT (SELECTIVE)
+CHUBB — Insurance 
+•	The objective is to collect, organize and store data from different data sources to provide a single integrated source for reporting, analysis and decision support.
+Thomson Reuters — Telecommunication
+•	The project objective was to provide a solution that will make the business forwarded by centralizing Tax and Accounting and providing a foundation to meet critical reporting needs, reduce data complexity, adhere to ever-changing regulations and provide complete customer insight.
+
+SKILLS
+•	Data Integration 
+•	RDBMS 
+•	SQL 
+•	DWH/BI 
+•	SDLC/Agile 
+•	Bash/Unix
+
+TOOLS
+•	ICS/Informatica Power Center
+•	Expert JIRA - Expert 
+•	GitHub - Advanced
+
+AWARDS
+•	IBM Manager’s Choice Awards 
+•	IBM Deep Skill Adder Awards
+
+AWARDS & ACHIVEMENTS
+•	IBM Manager’s Choice Awards IBM 
+•	Deep Skill Adder Awards 
+•	GATE Qualified, 2014 
+•	Ministry of Human Resource Development Department Scholarship
+
+PUBLICATIONS
+•	Design of a compact planar quasi-Yagi antenna with enhanced gain and bandwidth using metamaterial, in: Journal, PIERS Journal, 2016 (ISBN/ISSN: 1937-6480).
+
+CERTIFICATIONS
+•	Azure Data fundamentals
+•	Azure data Engineer
