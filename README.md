@@ -30,11 +30,17 @@ Thomson Reuters — Telecommunication
 SKILLS
 
 •	Data Integration 
+
 •	RDBMS 
+
 •	SQL 
+
 •	DWH/BI 
+
 •	SDLC/Agile 
+
 •	Bash/Unix
+
 
 TOOLS
 
