@@ -1,4 +1,4 @@
-![image](https://github.com/moumita-de/dummywebsite/assets/145857739/a1e4c0f4-3939-4896-81e6-6657706eb53c)Welcome to Moumita's resume page.
+Welcome to Moumita's resume page.
 
 Data Engineer, 5+ Years of IT Exp.
 Kolkata, India | +91-xxxxxxxxxx | moumitamoucob@gmail.com
