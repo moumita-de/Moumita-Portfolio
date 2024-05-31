@@ -1,11 +1,11 @@
 <h2 style="color: green; font-weight: bold;text-align: center;">Welcome to Moumita's Page!</h2>
 
-![Capture](https://github.com/moumita-de/dummywebsite/assets/145857739/485fbc57-86dc-4620-aefa-41bfcbe0a792)
-
+![Capture](https://github.com/moumita-de/dummywebsite/assets/145857739/485fbc57-86dc-4620-aefa-41bfcbe0a792)  <br>
 **Data Engineer, 7+ Years of IT Exp.** <br>
 Kolkata, India | +91-xxxxxxxxxx | moumitamoucob@gmail.com
 
-<h3 style="color: green; font-weight: bold;text-align: center;">WORK EXPERIENCE</h3>
+
+<h3 style="color: green; font-weight: bold;">WORK EXPERIENCE</h3>
 
 **Ernst and Young GDS <br>
 Mar,2022-Till date** <br>
@@ -26,7 +26,7 @@ Aug 2016 – Mar 2022** <br>
 •	Responsible for code deployment using GitHub. <br>
 •	Providing training to new or junior team members and monitoring them.<br>
 
-<h3 style="color: green; font-weight: bold;text-align: center;">PROJECTS (SELECTIVE)</h3>
+<h3 style="color: green; font-weight: bold;">PROJECTS (SELECTIVE)</h3>
 
 **CHUBB — Insurance** <br>
 •	The objective is to collect, organize and store data from different data sources to provide a single integrated source for reporting, analysis and decision support.
@@ -34,7 +34,7 @@ Aug 2016 – Mar 2022** <br>
 **Thomson Reuters — Telecommunication** <br>
 •	The project objective was to provide a solution that will make the business forwarded by centralizing Tax and Accounting and providing a foundation to meet critical reporting needs, reduce data complexity, adhere to ever-changing regulations and provide complete customer insight.
 
-<h3 style="color: green; font-weight: bold;text-align: center;">SKILLS</h3>
+<h3 style="color: green; font-weight: bold;">SKILLS</h3>
 
 •	Data Integration <br>
 •	RDBMS <br>
@@ -43,29 +43,29 @@ Aug 2016 – Mar 2022** <br>
 •	SDLC/Agile <br>
 •	Bash/Unix
 
-<h3 style="color: green; font-weight: bold;text-align: center;">TOOLS</h3>
+<h3 style="color: green; font-weight: bold;">TOOLS</h3>
 
 •	ICS/Informatica Power Center<br>
 •	Expert JIRA - Expert <br>
 •	GitHub - Advanced<br>
 
-<h3 style="color: green; font-weight: bold;text-align: center;">AWARDS</h3>
+<h3 style="color: green; font-weight: bold;">AWARDS</h3>
 
 •	IBM Manager’s Choice Awards <br>
 •	IBM Deep Skill Adder Awards<br>
 
-<h3 style="color: green; font-weight: bold;text-align: center;">AWARDS AND ACHIVEMENTS</h3>
+<h3 style="color: green; font-weight: bold;">AWARDS AND ACHIVEMENTS</h3>
 
 •	IBM Manager’s Choice Awards IBM <br>
 •	Deep Skill Adder Awards <br>
 •	GATE Qualified, 2014 <br>
 •	Ministry of Human Resource Development Department Scholarship
 
-<h3 style="color: green; font-weight: bold;text-align: center;">PUBLICATIONS</h3>
+<h3 style="color: green; font-weight: bold;">PUBLICATIONS</h3>
 
 •	Design of a compact planar quasi-Yagi antenna with enhanced gain and bandwidth using metamaterial, in: Journal, PIERS Journal, 2016 (ISBN/ISSN: 1937-6480).
 
-<h3 style="color: green; font-weight: bold;text-align: center;">CERTIFICATIONS</h3>
+<h3 style="color: green; font-weight: bold;">CERTIFICATIONS</h3>
 
 ![Capture1](https://github.com/moumita-de/dummywebsite/assets/145857739/42530155-6168-4399-b454-82d878f71b17)
 ![Capture2](https://github.com/moumita-de/dummywebsite/assets/145857739/e527f109-7cbf-4f09-aefd-97b327e02b5e)
