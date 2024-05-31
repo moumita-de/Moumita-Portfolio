@@ -6,6 +6,8 @@
 Kolkata, India | +91-xxxxxxxxxx | moumitamoucob@gmail.com
 
 ## $\textcolor{green}{WORK\ EXPERIENCE}$
+<h1 style="color: green; font-weight: bold;">WORK EXPERIENCE</h1>
+<h2 style="color: green; font-weight: bold;">WORK EXPERIENCE</h2>
 
 **Ernst and Young GDS <br>
 Mar,2022-Till date** <br>
