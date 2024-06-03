@@ -51,11 +51,13 @@ Aug 2016 – Mar 2022** <br>
 
 <h3 style="color: green; font-weight: bold;">AWARDS</h3>
 
+•	EY SPOT Awards <br>
 •	IBM Manager’s Choice Awards <br>
 •	IBM Deep Skill Adder Awards<br>
 
 <h3 style="color: green; font-weight: bold;">AWARDS AND ACHIVEMENTS</h3>
 
+•	EY SPOT Awards <br>
 •	IBM Manager’s Choice Awards IBM <br>
 •	Deep Skill Adder Awards <br>
 •	GATE Qualified, 2014 <br>
@@ -67,6 +69,6 @@ Aug 2016 – Mar 2022** <br>
 
 <h3 style="color: green; font-weight: bold;">CERTIFICATIONS</h3>
 
-![Capture1](https://github.com/moumita-de/dummywebsite/assets/145857739/42530155-6168-4399-b454-82d878f71b17)
+![Capture1](https://github.com/moumita-de/dummywebsite/assets/145857739/5ef254fa-4a7a-4eab-b00b-08df7b361872)
 ![Capture2](https://github.com/moumita-de/dummywebsite/assets/145857739/e527f109-7cbf-4f09-aefd-97b327e02b5e)
 ![Capture3](https://github.com/moumita-de/dummywebsite/assets/145857739/5c0980c3-fbdd-4eb8-b080-ae09daecd6eb)
