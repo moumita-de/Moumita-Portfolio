@@ -12,7 +12,7 @@ Mar,2022-Till date** <br>
 •	Design and develop data warehouse solution for the banking client with 200+ data tables. <br> 
 •	Analysed the business requirements, identified the gaps and suggested process & performance improvements. <br>
 •	Design and develop scalable optimized data pipelines to process 1.5M daily delta records.<br>
-•	Records Lead a module end to end that extract data from Finance legacy system and load data into the SVoT for financial data insight.<br>
+•	Lead a module end to end that extract data from Finance legacy system and load data into the SVoT for financial data insight.<br>
 
 **IBM India Pvt. Ltd.<br>
 Aug 2016 – Mar 2022** <br>
