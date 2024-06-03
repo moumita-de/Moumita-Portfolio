@@ -26,7 +26,10 @@ Aug 2016 – Mar 2022** <br>
 •	Responsible for code deployment using GitHub. <br>
 •	Providing training to new or junior team members and monitoring them.<br>
 
-<h3 style="color: green; font-weight: bold;">PROJECTS (SELECTIVE)</h3>
+<h3 style="color: green; font-weight: bold;">PROJECTS</h3>
+
+**Piraeus Bank — Bank** <br>
+•	The main objectives of this project is to extend DWH to build a Single-Point of Truth for the organization that acts as a centralized repository providing reports and data to both stakeholders and consuming systems. 
 
 **CHUBB — Insurance** <br>
 •	The objective is to collect, organize and store data from different data sources to provide a single integrated source for reporting, analysis and decision support.
@@ -41,11 +44,13 @@ Aug 2016 – Mar 2022** <br>
 •	SQL <br>
 •	DWH/BI <br>
 •	SDLC/Agile <br>
+•	Python <br>
 •	Bash/Unix
 
 <h3 style="color: green; font-weight: bold;">TOOLS</h3>
 
 •	ICS/Informatica Power Center<br>
+•	ADF <br>
 •	Expert JIRA - Expert <br>
 •	GitHub - Advanced<br>
 
