@@ -28,7 +28,7 @@ Aug 2016 – Mar 2022** <br>
 
 <h3 style="color: green; font-weight: bold;">PROJECTS</h3>
 
-<th><a href="Piraeus Bank.html">Piraeus Bank — Bank</a></th> <br>
+<th><a href="Piraeus Bank.html">Piraeus Bank </a></th> <br>
 •	The main objectives of this project is to extend DWH to build a Single-Point of Truth for the organization that acts as a centralized repository providing reports and data to both stakeholders and consuming systems. 
 
 **CHUBB — Insurance** <br>
