@@ -28,10 +28,10 @@ Aug 2016 – Mar 2022** <br>
 
 <h3 style="color: green; font-weight: bold;">PROJECTS</h3>
 
-<th><a href="PiraeusBank.html">PiraeusBank </a></th><br>
+<th><a href="PiraeusBank.html">PiraeusBank </a></th>
 •	The main objectives of this project is to extend DWH to build a Single-Point of Truth for the organization that acts as a centralized repository providing reports and data to both stakeholders and consuming systems. <br>
 
-<th><a href="CHUBBInsurance.html">CHUBBInsurance </a></th><br>
+<th><a href="CHUBBInsurance.html">CHUBBInsurance </a></th>
 •	The objective is to collect, organize and store data from different data sources to provide a single integrated source for reporting, analysis and decision support.
 
 **Thomson Reuters — Telecommunication** <br>
