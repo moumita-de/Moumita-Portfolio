@@ -14,6 +14,6 @@ There have been identified multiple systems in the organization that operate as 
 **Our Solution:**
 
 We equipped Bank with tools, knowledge and strategies to optimize banking delivery:
-1.	Towards establishing the Single-Point of Truth of the organization. 
-2.	Enhancing the data areas integrated into and served through the DWH. 
+1. Towards establishing the Single-Point of Truth of the organization. 
+2. Enhancing the data areas integrated into and served through the DWH. 
 3. Cloud-native information architecture that is scalable, elastic, and future-ready.
