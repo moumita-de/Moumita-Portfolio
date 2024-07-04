@@ -15,3 +15,10 @@ We equipped Bank with tools, knowledge and strategies to optimize banking delive
 1. Towards establishing the Single-Point of Truth of the organization. <br>
 2. Enhancing the data areas integrated into and served through the DWH. <br>
 3. Cloud-native information architecture that is scalable, elastic, and future-ready.<br>
+
+
+**dbuibd**
+
+1. ihcdbj
+2. nkdnke
+3. 
