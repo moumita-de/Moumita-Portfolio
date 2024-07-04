@@ -49,7 +49,7 @@ Aug 2016 – Mar 2022** <br>
 
 <h3 style="color: green; font-weight: bold;">TOOLS</h3>
 
-•	ICS/Informatica Power Center<br>
+•	IICS/Informatica Power Center<br>
 •	ADF <br>
 •	Expert JIRA - Expert <br>
 •	GitHub - Advanced<br>
