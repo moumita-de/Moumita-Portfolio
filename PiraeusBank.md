@@ -11,15 +11,9 @@ Common challenges addressed include:<br>
 
 **Our Solution:**
 
-We equipped Bank with tools, knowledge and strategies to optimize banking delivery:<br>
-1. Towards establishing the Single-Point of Truth of the organization. <br>
-2. Enhancing the data areas integrated into and served through the DWH. <br>
-3. Cloud-native information architecture that is scalable, elastic, and future-ready.<br>
+<p>We equipped Bank with tools, knowledge and strategies to optimize banking delivery:</p>
+<p>1. Towards establishing the Single-Point of Truth of the organization. </p>
+<p>2. Enhancing the data areas integrated into and served through the DWH. </p>
+<p>3. Cloud-native information architecture that is scalable, elastic, and future-ready.</p>
 
-
-**dbuibd**
-
-initial discussinn heppend on teh sub 
-1. ihcdbj
-2. nkdnke
-3. 
+<p>First line of text</p>
