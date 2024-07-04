@@ -15,3 +15,7 @@ Main objectives of this initiative is to extend DWH to build a Single-Point of T
 <p>1. Towards establishing the Single-Point of Truth of the organization. </p>
 <p>2. Enhancing the data areas integrated into and served through the DWH. </p>
 <p>3. Cloud-native information architecture that is scalable, elastic, and future-ready.</p>
+
+**Role:** Senior Consultant
+
+**Tools & Technologies Used:** ETL Informatica, IBM DB2, SQL, SQL Procedures
