@@ -1,6 +1,5 @@
 <h2 style="color: green; font-weight: bold;text-align: center;">Welcome to Moumita's Page!</h2>
 
-![Capture](https://github.com/moumita-de/dummywebsite/assets/145857739/485fbc57-86dc-4620-aefa-41bfcbe0a792)  <br>
 **Data Engineer, 7+ Years of IT Exp.** <br>
 Kolkata, India | +91-xxxxxxxxxx | moumitamoucob@gmail.com
 
