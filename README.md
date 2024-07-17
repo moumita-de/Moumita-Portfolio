@@ -1,7 +1,7 @@
 <h2 style="color: green; font-weight: bold;text-align: center;">Welcome to Moumita's Page!</h2>
 
 **Data Engineer, 7+ Years of IT Exp.** <br>
-Kolkata, India | +91-xxxxxxxxxx | moumitamoucob@gmail.com
+Hyderabad, India | +91-xxxxxxxxxx | moumitamoucob@gmail.com
 
 
 <h3 style="color: green; font-weight: bold;">WORK EXPERIENCE</h3>
