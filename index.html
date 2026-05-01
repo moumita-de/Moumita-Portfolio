@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moumita Sarkar - Data Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Moumita Sarkar</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#awards" class="nav-link">Awards</a></li>
+                <li><a href="#publications" class="nav-link">Publications</a></li>
+                <li><a href="#hobbies" class="nav-link">Hobbies</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <p class="hero-greeting">Hi There,</p>
+                <h1 class="hero-title">Welcome to My<br>Personal Website.</h1>
+                <p class="hero-subtitle">Data Engineer &bull; 9+ Years of IT Experience</p>
+                <p class="hero-description">Explore my digital hub to learn more about me and my passions. This website is a glimpse into my life, experiences, and expertise. Whether you're here for professional insights or personal interests, you'll find something for everyone.</p>
+                <div class="hero-cta">
+                    <a href="#about" class="btn-cta">Know More About Me</a>
+                    <a href="resume.html" class="btn-cta-outline" target="_blank" rel="noopener"><i class="fas fa-download"></i> Download Resume</a>
+                </div>
+                <div class="hero-socials">
+                    <a href="mailto:moumitamoucob@gmail.com?subject=Reaching%20Out%20After%20Viewing%20Your%20Profile" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/moumita-sarkar-88948894/" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-wrapper">
+                    <img id="profile-photo" src="assets/profile.jpg" alt="Moumita Sarkar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="discover">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="discover-grid">
+                <div class="discover-card">
+                    <div class="discover-icon"><i class="fas fa-user"></i></div>
+                    <h3>Who I Am</h3>
+                    <p>A Data Engineer with 9+ years of IT experience based in Hyderabad, India. I specialize in building scalable data platforms and intelligent data workflows.</p>
+                </div>
+                <div class="discover-card">
+                    <div class="discover-icon"><i class="fas fa-briefcase"></i></div>
+                    <h3>Professional Journey</h3>
+                    <p>Currently at EY GDS designing metadata-driven platforms on Databricks. Previously at IBM building enterprise ETL solutions with Informatica.</p>
+                </div>
+                <div class="discover-card">
+                    <div class="discover-icon"><i class="fas fa-project-diagram"></i></div>
+                    <h3>What I Do</h3>
+                    <p>I design data architectures, build data quality frameworks, optimize large-scale notebooks, and create reusable templating frameworks using modern data tools.</p>
+                </div>
+                <div class="discover-card">
+                    <div class="discover-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Research &amp; Learning</h3>
+                    <p>Published researcher in antenna design with metamaterials. Certified in Databricks Lakehouse and Azure Data Fundamentals. Always learning new things.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="section-container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="exp-timeline">
+                <div class="exp-card">
+                    <div class="exp-header">
+                        <div class="exp-company">
+                            <h3>EY GDS</h3>
+                            <span class="exp-badge">Current</span>
+                        </div>
+                        <span class="exp-date">Mar 2022 – Present</span>
+                    </div>
+                    <ul class="exp-list">
+                        <li>Designed a metadata-driven data platform on Databricks, enabling dynamic pipeline orchestration, scalable processing, and future-ready intelligent data workflows</li>
+                        <li>Led the end-to-end migration of a large-scale banking data warehouse from SSIS to Databricks, leveraging a GenAI-driven framework to accelerate ETL conversion and improve maintainability</li>
+                        <li>Developed a reusable notebook templating framework, standardizing development practices and significantly reducing debugging effort and development time</li>
+                        <li>Played a pivotal role in designing enterprise data architecture for a banking transformation program, ensuring scalability, performance, and adherence to best practices</li>
+                        <li>Built a comprehensive data quality framework with record-level validation checks to ensure high data accuracy before loading into target tables</li>
+                        <li>Designed and implemented business-ready data marts (Gold layer) to support downstream reporting and self-service analytics use cases</li>
+                        <li>Optimized performance of large-scale Databricks notebooks (14K+ lines of code) processing high-volume datasets, reducing execution time from failed/long-running jobs to completion within ~10 minutes</li>
+                    </ul>
+                </div>
+                <div class="exp-card">
+                    <div class="exp-header">
+                        <div class="exp-company">
+                            <h3>IBM India Pvt. Ltd.</h3>
+                        </div>
+                        <span class="exp-date">Aug 2016 – Mar 2022</span>
+                    </div>
+                    <ul class="exp-list">
+                        <li>Analyzing requirements from logical data models and mapping documents to design data integration solutions</li>
+                        <li>Developing various mappings, workflows, and task flows in SCD using Informatica IICS and Informatica Power Center 10.2 to perform data integration</li>
+                        <li>Used various transformations like Source Qualifier, Aggregator, Filter, Router, Joiner, Sequence Generator, Lookup, Expression and update strategy to meet business logic</li>
+                        <li>Creating database objects (tables, views) as per business requirements; finding new solutions or improvements to help business</li>
+                        <li>Analyzing tables and indexes for performance improvement; designed ETL flows that improved performance by 15-20%</li>
+                        <li>Root cause analysis of complex and ambiguous production issues and provided solutions</li>
+                        <li>Worked on shared key sequence generation for uniform sequence key value across all source systems for Over Night and Real Time data</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-container">
+            <h2 class="section-title">Skills &amp; Tools</h2>
+            <div class="skills-wrapper">
+                <div class="skills-col">
+                    <h3 class="skills-col-title">Technical Skills</h3>
+                    <div class="skill-bars">
+                        <div class="skill-row">
+                            <div class="skill-info"><span>Data Integration</span><span>95%</span></div>
+                            <div class="skill-track"><div class="skill-fill" data-width="95"></div></div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-info"><span>SQL &amp; RDBMS</span><span>90%</span></div>
+                            <div class="skill-track"><div class="skill-fill" data-width="90"></div></div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-info"><span>PySpark</span><span>88%</span></div>
+                            <div class="skill-track"><div class="skill-fill" data-width="88"></div></div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-info"><span>Data Warehouse / BI</span><span>85%</span></div>
+                            <div class="skill-track"><div class="skill-fill" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-info"><span>SDLC / Agile</span><span>80%</span></div>
+                            <div class="skill-track"><div class="skill-fill" data-width="80"></div></div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-info"><span>Bash / Unix</span><span>80%</span></div>
+                            <div class="skill-track"><div class="skill-fill" data-width="80"></div></div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-info"><span>Prompt Engineering</span><span>85%</span></div>
+                            <div class="skill-track"><div class="skill-fill" data-width="85"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-col">
+                    <h3 class="skills-col-title">Tools &amp; Platforms</h3>
+                    <div class="tools-grid">
+                        <div class="tool-card">
+                            <i class="fas fa-database"></i>
+                            <strong>Databricks</strong>
+                            <span>Advanced</span>
+                        </div>
+                        <div class="tool-card">
+                            <i class="fas fa-cogs"></i>
+                            <strong>Informatica</strong>
+                            <span>Expert</span>
+                        </div>
+                        <div class="tool-card">
+                            <i class="fas fa-tasks"></i>
+                            <strong>JIRA</strong>
+                            <span>Expert</span>
+                        </div>
+                        <div class="tool-card">
+                            <i class="fab fa-github"></i>
+                            <strong>GitHub</strong>
+                            <span>Advanced</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-container">
+            <h2 class="section-title">Notable Projects</h2>
+            <div class="project-cards">
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-university"></i></div>
+                    <h3>Banking Data Warehouse Migration</h3>
+                    <span class="project-tag">EY GDS / Databricks</span>
+                    <p>Led migration of a large-scale banking DWH from SSIS to Databricks using a GenAI-driven framework. Built metadata-driven pipelines, Gold layer data marts, and optimized 14K+ line notebooks for high-volume processing.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>CHUBB — Insurance</h3>
+                    <span class="project-tag">IBM / Informatica</span>
+                    <p>Designed and implemented a comprehensive data integration solution to collect, organize, and store data from multiple sources into a single integrated source for reporting, analysis, and decision support.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-landmark"></i></div>
+                    <h3>Thomson Reuters — Telecom</h3>
+                    <span class="project-tag">IBM / ETL</span>
+                    <p>Developed a solution to centralize Tax and Accounting processes, providing a foundation to meet critical reporting needs, reduce data complexity, and ensure regulatory compliance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" class="awards-section">
+        <div class="section-container">
+            <h2 class="section-title">Awards &amp; Achievements</h2>
+            <div class="awards-grid">
+                <div class="award-item"><div class="award-icon">🏆</div><h4>Achiever Extraordinaire at EY</h4><p>Outstanding contribution and impact at EY GDS</p></div>
+                <div class="award-item"><div class="award-icon">⭐</div><h4>EY Appreciate</h4><p>Excellence and dedication at EY GDS</p></div>
+                <div class="award-item"><div class="award-icon">🏅</div><h4>IBM Manager's Choice Awards</h4><p>Exceptional performance at IBM</p></div>
+                <div class="award-item"><div class="award-icon">💡</div><h4>Deep Skill Adder Awards</h4><p>Continuous learning and specialized expertise at IBM</p></div>
+                <div class="award-item"><div class="award-icon">🎓</div><h4>GATE Qualified, 2014</h4><p>Graduate Aptitude Test in Engineering</p></div>
+                <div class="award-item"><div class="award-icon">📚</div><h4>MHRD Scholarship</h4><p>Ministry of Human Resource Development</p></div>
+            </div>
+            <h3 class="sub-section-title">Certifications</h3>
+            <div class="cert-grid">
+                <div class="cert-card"><i class="fas fa-certificate"></i><span>Databricks Lakehouse Fundamentals</span></div>
+                <div class="cert-card"><i class="fas fa-certificate"></i><span>Databricks Lakehouse Data Engineer</span></div>
+                <div class="cert-card"><i class="fas fa-certificate"></i><span>Microsoft Azure Data Fundamentals</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications-section">
+        <div class="section-container">
+            <h2 class="section-title">Publications</h2>
+            <div class="pub-card">
+                <div class="pub-icon"><i class="fas fa-book-open"></i></div>
+                <div class="pub-content">
+                    <h3>Design of a Compact Planar Quasi-Yagi Antenna with Enhanced Gain and Bandwidth Using Metamaterial</h3>
+                    <p class="pub-meta"><strong>Journal:</strong> PIERS Journal, 2016 &nbsp;|&nbsp; <strong>ISBN/ISSN:</strong> 1937-6480</p>
+                    <p>Research publication on antenna design and metamaterial engineering, demonstrating expertise in technical research and innovation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="hobbies-section">
+        <div class="section-container">
+            <h2 class="section-title">Hobbies &amp; Interests</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <div class="hobby-icon"><i class="fas fa-music"></i></div>
+                    <h3>Singing</h3>
+                    <p>I have a deep love for singing — it's something that brings me joy and is always close to my heart.</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon"><i class="fas fa-microphone-alt"></i></div>
+                    <h3>Voice Over Artistry</h3>
+                    <p>Voice over work fascinates me — narrations, dubbing, storytelling through voice. It's a creative passion I aspire to explore in the future.</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon"><i class="fas fa-book-reader"></i></div>
+                    <h3>Recitation</h3>
+                    <p>I enjoy reciting poetry and prose — expressing emotions through words and voice is something that truly resonates with me.</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon"><i class="fas fa-heart"></i></div>
+                    <h3>Crochet</h3>
+                    <p>Crochet art truly inspires me — creating handmade pieces with intricate patterns is something I look forward to learning and practising.</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>Cross Stitch Design</h3>
+                    <p>I'm drawn to the art of cross stitch on handkerchiefs and table cloths — a beautiful blend of patience and creativity I wish to take up.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-intro">Feel free to reach out if you'd like to connect, collaborate, or simply have a chat.</p>
+            <div class="contact-grid">
+                <div class="contact-info-col">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <div><h4>Email</h4><a href="mailto:moumitamoucob@gmail.com?subject=Reaching%20Out%20After%20Viewing%20Your%20Profile">moumitamoucob@gmail.com</a></div>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div><h4>Location</h4><p>Hyderabad, India</p></div>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-file-pdf"></i>
+                        <div><h4>Resume</h4><a href="resume.html" target="_blank" rel="noopener">Download Resume</a></div>
+                    </div>
+                </div>
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn-cta">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section-container">
+            <div class="footer-content">
+                <p>&copy; 2026 Moumita Sarkar. All rights reserved.</p>
+                <div class="footer-socials">
+                    <a href="mailto:moumitamoucob@gmail.com?subject=Reaching%20Out%20After%20Viewing%20Your%20Profile" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/moumita-sarkar-88948894/" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Hidden Admin Photo Upload Panel -->
+    <div id="admin-panel" class="admin-panel" style="display:none;">
+        <div class="admin-overlay" onclick="closeAdmin()"></div>
+        <div class="admin-dialog">
+            <h3>Upload Profile Photo</h3>
+            <p>Select a photo to update your profile image.</p>
+            <input type="file" id="photo-input" accept="image/*">
+            <div class="admin-preview" id="admin-preview"></div>
+            <div class="admin-actions">
+                <button onclick="savePhoto()" class="admin-btn save">Save Photo</button>
+                <button onclick="clearPhoto()" class="admin-btn clear">Reset to Default</button>
+                <button onclick="closeAdmin()" class="admin-btn cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

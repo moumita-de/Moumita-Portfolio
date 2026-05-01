@@ -1,76 +1,274 @@
-<h2 style="color: green; font-weight: bold;text-align: center;">Welcome to Moumita's Page!</h2>
+# Moumita Sarkar - Professional Portfolio Website
 
-**Data Engineer, 7+ Years of IT Exp.** <br>
-Hyderabad, India | +91-xxxxxxxxxx | moumitamoucob@gmail.com
+A modern, responsive portfolio website showcasing career, skills, projects, awards, and achievements.
 
+## 📁 Project Structure
 
-<h3 style="color: green; font-weight: bold;">WORK EXPERIENCE</h3>
+```
+My_website/
+├── index.html          # Main HTML file with all sections
+├── styles.css          # Complete CSS styling and responsive design
+├── script.js           # JavaScript for interactivity and animations
+└── README.md           # This file
+```
 
-**Ernst and Young GDS <br>
-Mar,2022-Till date** <br>
-•	Design and develop data warehouse solution for the banking client with 200+ data tables. <br> 
-•	Analysed the business requirements, identified the gaps and suggested process & performance improvements. <br>
-•	Design and develop scalable optimized data pipelines to process 1.5M daily delta records.<br>
-•	Lead a module end to end that extract data from Finance legacy system and load data into the SVoT for financial data insight.<br>
+## 🎯 Website Sections
 
-**IBM India Pvt. Ltd.<br>
-Aug 2016 – Mar 2022** <br>
-•	Analyzing the requirement from the logical data model or from the mapping document. <br>
-•	Responsible for developing various mappings, workflow, task flow in SCD using Informatica Intelligent Cloud Services (IICS) and Informatica Power Center 10.2 to perform data integration. <br>
-•	Used various transformations like Source Qualifier, Aggregator, Filter, Router, Joiner, Sequence Generator, Lookup, Expression and update strategy to meet business logic. <br>
-•	Responsible for creating database objects like tables, views as per the business requirements. Responsible for finding new solutions or improvements that can help business. <br>
-•	Analyzing tables and indexes for performance improvement. Design ETL flow which improves the performance by 15- 20%. <br>
-•	Root cause analysis of complex and ambiguous production issues and provided solutions. <br>
-•	Worked on the shared key sequence generation for uniform sequence key value across all the source systems for Over Night and Real Time data. <br>
-•	Responsible for code deployment using GitHub. <br>
-•	Providing training to new or junior team members and monitoring them.<br>
+1. **Navigation Bar** - Sticky navigation with smooth scrolling to all sections
+2. **Hero Section** - Eye-catching introduction with call-to-action buttons
+3. **About Me** - Personal introduction and key statistics
+4. **Work Experience** - Detailed timeline of IBM career with key achievements
+5. **Projects** - Showcase of notable projects (CHUBB Insurance, Thomson Reuters)
+6. **Skills & Tools** - Technical skills with progress bars and expertise levels
+7. **Awards & Achievements** - Recognition and certifications
+8. **Publications** - Academic and technical publications
+9. **Contact** - Contact information and message form
+10. **Footer** - Copyright and closing section
 
-<h3 style="color: green; font-weight: bold;">PROJECTS</h3>
+## 🚀 Getting Started
 
-<th><a href="PiraeusBank.html">PiraeusBank </a></th>
-•	The main objectives of this project is to extend DWH to build a Single-Point of Truth for the organization that acts as a centralized repository providing reports and data to both stakeholders and consuming systems. <br>
+### Open the Website
+1. Navigate to the project directory
+2. Open `index.html` in your web browser
+   - Double-click `index.html`, or
+   - Right-click → Open with → Your preferred browser
 
-<th><a href="CHUBBInsurance.html">CHUBBInsurance </a></th>
-•	The objective is to collect, organize and store data from different data sources to provide a single integrated source for reporting, analysis and decision support.
+### View on Local Server (Recommended)
+For better performance and testing, use a local server:
 
-**Thomson Reuters — Telecommunication** <br>
-•	The project objective was to provide a solution that will make the business forwarded by centralizing Tax and Accounting and providing a foundation to meet critical reporting needs, reduce data complexity, adhere to ever-changing regulations and provide complete customer insight.
+**Using Python:**
+```bash
+# Python 3.x
+python -m http.server 8000
 
-<h3 style="color: green; font-weight: bold;">SKILLS</h3>
+# Python 2.x
+python -m SimpleHTTPServer 8000
+```
 
-•	Data Integration <br>
-•	RDBMS <br>
-•	SQL <br>
-•	DWH/BI <br>
-•	SDLC/Agile <br>
-•	Python <br>
-•	Bash/Unix
+**Using Node.js (http-server):**
+```bash
+npx http-server
+```
 
-<h3 style="color: green; font-weight: bold;">TOOLS</h3>
+Then open your browser and go to `http://localhost:8000`
 
-•	IICS/Informatica Power Center<br>
-•	ADF <br>
-•	Expert JIRA - Expert <br>
-•	GitHub - Advanced<br>
+## 🎨 Customization
 
-<h3 style="color: green; font-weight: bold;">AWARDS</h3>
+### Colors
+Edit the color scheme in `styles.css` by modifying the CSS variables:
 
-•	EY SPOT Awards <br>
-•	IBM Manager’s Choice Awards <br>
-•	IBM Deep Skill Adder Awards<br>
+```css
+:root {
+    --primary-color: #2d5a6f;      /* Main color */
+    --secondary-color: #4fa3a3;    /* Secondary color */
+    --accent-color: #f4a460;       /* Accent/highlight color */
+    --text-dark: #2c3e50;          /* Dark text */
+    --text-light: #7f8c8d;         /* Light text */
+}
+```
 
-<h3 style="color: green; font-weight: bold;">AWARDS AND ACHIVEMENTS</h3>
+### Content Updates
 
-•	EY SPOT Awards <br>
-•	IBM Manager’s Choice Awards IBM <br>
-•	Deep Skill Adder Awards <br>
-•	GATE Qualified, 2014 <br>
-•	Ministry of Human Resource Development Department Scholarship
+#### Update Contact Information
+In `index.html`, find the contact section and update:
+- Email: `moumitamoucob@gmail.com`
+- Location: `Kolkata, India`
+- Social links (GitHub, LinkedIn)
 
-<h3 style="color: green; font-weight: bold;">PUBLICATIONS</h3>
+#### Add Hobbies Section
+To add a hobbies/interests section, insert the following before the footer:
 
-•	Design of a compact planar quasi-Yagi antenna with enhanced gain and bandwidth using metamaterial, in: Journal, PIERS Journal, 2016 (ISBN/ISSN: 1937-6480).
+```html
+<!-- Hobbies & Interests Section -->
+<section id="hobbies" class="hobbies">
+    <div class="container">
+        <h2>Hobbies & Interests</h2>
+        <div class="hobbies-grid">
+            <div class="hobby-card">
+                <h3>Technology Exploration</h3>
+                <p>Exploring new tools and frameworks in data engineering and cloud technologies.</p>
+            </div>
+            <div class="hobby-card">
+                <h3>Open Source Contribution</h3>
+                <p>Contributing to open-source projects and sharing knowledge with the community.</p>
+            </div>
+            <div class="hobby-card">
+                <h3>Reading & Learning</h3>
+                <p>Stay updated with industry trends and best practices through technical blogs and courses.</p>
+            </div>
+            <div class="hobby-card">
+                <h3>Travel</h3>
+                <p>Exploring new places and experiencing different cultures.</p>
+            </div>
+        </div>
+    </div>
+</section>
+```
 
-<h3 style="color: green; font-weight: bold;">CERTIFICATIONS</h3>
+Then add this CSS to `styles.css`:
 
-![image](https://github.com/moumita-de/dummywebsite/assets/145857739/dbd09ef8-1c3f-43ed-bc33-9580984207ab)
+```css
+/* Hobbies Section */
+.hobbies {
+    padding: 80px 0;
+    background-color: var(--bg-light);
+}
+
+.hobbies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.hobby-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: all 0.3s;
+    border-bottom: 4px solid var(--secondary-color);
+}
+
+.hobby-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.hobby-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.hobby-card p {
+    color: var(--text-light);
+    line-height: 1.6;
+}
+```
+
+Also update the navigation to include hobbies:
+```html
+<li><a href="#hobbies">Hobbies</a></li>
+```
+
+#### Modify Experience
+Update work details in the "Work Experience" section in `index.html`.
+
+#### Update Skills
+Edit the skill names, progress percentages, and tools in `styles.css`:
+```css
+.skill-progress {
+    width: 85%;  /* Change this percentage */
+}
+```
+
+#### Change Projects
+Modify the project cards in the "Projects" section with your own project details.
+
+### Add Your Photo
+To add a profile photo, create an `assets` folder and update the HTML:
+
+```html
+<!-- Add to Hero or About section -->
+<img src="assets/profile.jpg" alt="Profile Photo" class="profile-photo">
+```
+
+Then add CSS for the image:
+```css
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--accent-color);
+    margin-bottom: 20px;
+}
+```
+
+## 📱 Responsive Design
+
+The website is fully responsive and works on:
+- Desktop computers
+- Tablets
+- Mobile phones
+
+Breakpoints:
+- Large screens: 1200px+
+- Medium screens: 768px - 1199px
+- Small screens: 480px - 767px
+- Extra small: Below 480px
+
+## ✨ Features
+
+- ✅ Smooth scrolling navigation
+- ✅ Mobile-friendly hamburger menu
+- ✅ Animated elements on scroll
+- ✅ Professional gradient backgrounds
+- ✅ Skill progress bars
+- ✅ Contact form
+- ✅ Responsive design
+- ✅ Fast loading
+- ✅ SEO-friendly structure
+- ✅ Font Awesome icons integration
+
+## 🔧 Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)
+
+## 📝 Form Handling
+
+The contact form currently shows a success message locally. For production deployment:
+
+1. **Using Formspree:**
+   Update the form action in `index.html`:
+   ```html
+   <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+   ```
+
+2. **Using EmailJS:**
+   Add the EmailJS script and configure with your credentials.
+
+3. **Using Backend Service:**
+   Set up a backend endpoint to handle form submissions.
+
+## 🚀 Deployment
+
+### Deploy to GitHub Pages
+1. Create a GitHub repository named `yourusername.github.io`
+2. Push all files to the repository
+3. Website will be live at `https://yourusername.github.io`
+
+### Deploy to Netlify
+1. Connect your GitHub repository
+2. Set build command: (leave empty for static site)
+3. Publish directory: `.` (root)
+4. Deploy!
+
+### Deploy to Vercel
+1. Connect GitHub repository
+2. Vercel auto-detects static site
+3. Click deploy!
+
+## 🎯 Next Steps & Enhancements
+
+- [ ] Add profile photo
+- [ ] Add hobbies/interests section
+- [ ] Set up contact form backend
+- [ ] Add blog/articles section
+- [ ] Implement dark mode toggle
+- [ ] Add PDF resume download
+- [ ] Integrate with GitHub API to show repos
+- [ ] Add testimonials section
+- [ ] Implement analytics
+
+## 📧 Contact & Updates
+
+For any customization help or if you need to add new sections, update the corresponding HTML section in `index.html` and style it in `styles.css`.
+
+---
+
+**Happy Portfolio!** 🎉
