@@ -119,12 +119,7 @@ let pendingPhotoData = null;
 document.addEventListener('keydown', function(e) {
     if (e.ctrlKey && e.shiftKey && e.code === 'KeyP') {
         e.preventDefault();
-        var pwd = prompt('Enter admin password:');
-        if (pwd === 'moumita@admin') {
-            openAdmin();
-        } else if (pwd !== null) {
-            alert('Incorrect password.');
-        }
+        openAdmin();
     }
 });
 
@@ -174,7 +169,7 @@ function savePhoto() {
 
 function clearPhoto() {
     localStorage.removeItem('profilePhoto');
-    document.getElementById('profile-photo').src = 'assets/profile.jpg';
+    document.getElementById('profile-photo').src = 'assets/Profile_image.jpg';
     closeAdmin();
     alert('Photo reset to default.');
 }

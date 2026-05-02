@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moumita Sarkar - Resume (ATS)</title>
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            color: #333;
+            background: #f5f5f5;
+            line-height: 1.5;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        .resume-page {
+            width: 210mm;
+            margin: 20px auto;
+            background: #fff;
+            padding: 40px 50px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Header */
+        .resume-header {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 14px;
+        }
+        .resume-header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #222;
+            margin-bottom: 4px;
+        }
+        .resume-header .title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #444;
+            margin-bottom: 6px;
+        }
+        .resume-header .contact {
+            font-size: 0.9rem;
+            color: #555;
+        }
+        .resume-header .contact a {
+            color: #555;
+            text-decoration: none;
+        }
+
+        /* Section */
+        .section {
+            margin-bottom: 18px;
+        }
+        .section-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #222;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 1px solid #999;
+            padding-bottom: 4px;
+            margin-bottom: 10px;
+        }
+
+        /* Summary */
+        .summary p {
+            font-size: 0.92rem;
+            color: #444;
+        }
+
+        /* Experience */
+        .exp-block {
+            margin-bottom: 16px;
+        }
+        .exp-header {
+            margin-bottom: 4px;
+        }
+        .exp-company {
+            font-size: 1rem;
+            font-weight: 700;
+            color: #222;
+            display: block;
+        }
+        .exp-date {
+            font-size: 0.88rem;
+            color: #555;
+            display: block;
+        }
+        .exp-bullets {
+            padding-left: 20px;
+            margin: 0;
+        }
+        .exp-bullets li {
+            font-size: 0.9rem;
+            color: #333;
+            margin-bottom: 4px;
+            line-height: 1.5;
+        }
+
+        /* Skills */
+        .skills-text {
+            font-size: 0.92rem;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        /* Projects */
+        .project-block {
+            margin-bottom: 10px;
+        }
+        .project-block h4 {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #222;
+            margin-bottom: 2px;
+        }
+        .project-block p {
+            font-size: 0.9rem;
+            color: #444;
+            padding-left: 0;
+        }
+
+        /* Lists */
+        .plain-list {
+            padding-left: 20px;
+        }
+        .plain-list li {
+            font-size: 0.9rem;
+            color: #333;
+            margin-bottom: 3px;
+        }
+
+        /* Publication */
+        .pub-text {
+            font-size: 0.9rem;
+            color: #444;
+        }
+
+        /* Download bar */
+        .download-bar {
+            text-align: center;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #333;
+            color: #fff;
+            padding: 12px 32px;
+            border-radius: 6px;
+            font-family: 'Calibri', 'Arial', sans-serif;
+            font-size: 1rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .download-btn:hover {
+            background: #555;
+        }
+        .back-link {
+            display: inline-block;
+            margin-left: 20px;
+            color: #333;
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+
+        /* Print */
+        @media print {
+            body { background: #fff; }
+            .resume-page { margin: 0; box-shadow: none; padding: 20px 40px; width: 100%; }
+            .download-bar { display: none; }
+        }
+
+        @media (max-width: 800px) {
+            .resume-page {
+                width: 100%;
+                padding: 20px;
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="download-bar" id="download-bar">
+        <a href="#" class="download-btn" onclick="downloadResume(); return false;">
+            ⬇ Download Resume as PDF
+        </a>
+        <a href="index.html" class="back-link">← Back to Portfolio</a>
+    </div>
+
+    <div class="resume-page" id="resume">
+
+        <!-- HEADER -->
+        <div class="resume-header">
+            <h1>Moumita Sarkar</h1>
+            <p class="title">Data Engineer | 9+ Years of IT Experience</p>
+            <p class="contact"><a href="https://moumita-de.github.io/Moumita-Portfolio/" target="_blank" rel="noopener">www.iammoumita.in</a> | +91-8293752487 | <a href="mailto:moumitamoucob@gmail.com">moumitamoucob@gmail.com</a></p>
+        </div>
+
+        <!-- PROFESSIONAL SUMMARY -->
+        <div class="section summary">
+            <h2 class="section-title">Professional Summary</h2>
+            <p>Results-driven Data Engineer with 9+ years of experience in designing scalable data platforms, building ETL pipelines, and architecting enterprise data solutions. Expertise in Databricks, PySpark, SQL, and Informatica. Proven track record of leading large-scale data warehouse migrations, developing reusable frameworks, and optimizing data processing workflows. Certified in Databricks Lakehouse and Azure Data Fundamentals.</p>
+        </div>
+
+        <!-- SKILLS -->
+        <div class="section">
+            <h2 class="section-title">Skills</h2>
+            <p class="skills-text">
+                <strong>Technical:</strong> Data Integration, RDBMS, SQL, PySpark, Data Warehousing, Business Intelligence, SDLC/Agile, Bash/Unix, Prompt Engineering<br>
+                <strong>Tools & Platforms:</strong> Databricks, Informatica (IICS, Power Center), Azure (Data Lake, Blob Storage), JIRA, GitHub<br>
+                <strong>Specializations:</strong> ETL/ELT Pipeline Design, Metadata-Driven Architectures, Data Quality Frameworks, GenAI-Driven Development, Notebook Optimization
+            </p>
+        </div>
+
+        <!-- WORK EXPERIENCE -->
+        <div class="section">
+            <h2 class="section-title">Work Experience</h2>
+
+            <div class="exp-block">
+                <div class="exp-header">
+                    <span class="exp-company">EY GDS</span>
+                    <span class="exp-date">Mar 2022 – Present</span>
+                </div>
+                <ul class="exp-bullets">
+                    <li>Design a metadata-driven data platform on Databricks, enabling dynamic pipeline orchestration, scalable processing, and future-ready intelligent data workflows.</li>
+                    <li>Led the end-to-end migration of a large-scale banking data warehouse from SSIS to Databricks, leveraging a <strong>GenAI-driven framework</strong> to accelerate ETL conversion and improve maintainability.</li>
+                    <li><strong>Developed a reusable notebook templating framework,</strong> standardizing development practices and significantly reducing debugging effort and development time.</li>
+                    <li><strong>Played a pivotal role in designing enterprise data architecture</strong> for a banking transformation program, ensuring scalability, performance, and adherence to best practices.</li>
+                    <li>Built a comprehensive data quality framework with record-level validation checks to ensure high data accuracy before loading into target tables.</li>
+                    <li>Designed and implemented business-ready data marts (Gold layer) to support downstream reporting and self-service analytics use cases.</li>
+                    <li>Optimized performance of large-scale Databricks notebooks (<strong>14K+ lines of code</strong>) processing high-volume datasets, reducing execution time from failed/long-running jobs to completion within <strong>~10 minutes</strong>.</li>
+                </ul>
+            </div>
+
+            <div class="exp-block">
+                <div class="exp-header">
+                    <span class="exp-company">IBM India Pvt. Ltd.</span>
+                    <span class="exp-date">Aug 2016 – Mar 2022</span>
+                </div>
+                <ul class="exp-bullets">
+                    <li>Analyzing the requirement from the logical data model or from the mapping document.</li>
+                    <li>Responsible for developing various mappings, workflow, task flow in SCD using <strong>Informatica Intelligent Cloud Services (IICS)</strong> and Informatica Power Center 10.2 to perform data integration.</li>
+                    <li>Used various transformations like Source Qualifier, Aggregator, Filter, Router, Joiner, Sequence Generator, Lookup, Expression and update strategy to meet business logic.</li>
+                    <li>Responsible for creating database objects like tables, views as per the business requirements. Responsible for finding new solutions or improvements that can help business.</li>
+                    <li>Analyzing tables and indexes for performance improvement. Design ETL flow which <strong>improves the performance by 15-20%.</strong></li>
+                    <li>Root cause analysis of complex and ambiguous production issues and provided solutions.</li>
+                    <li>Worked on the shared key sequence generation for uniform sequence key value across all the source systems for Over Night and Real Time data.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- PROJECTS -->
+        <div class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-block">
+                <h4>National Bank of Greece — Bank</h4>
+                <p>Migrating the legacy SSIS ETL workflows to Azure Databricks, transitioning from on-premises infrastructure to a scalable cloud data platform with cloud storage (e.g., Azure Data Lake / Blob Storage) as the central data layer.</p>
+            </div>
+            <div class="project-block">
+                <h4>CHUBB — Insurance</h4>
+                <p>The objective is to collect, organize and store data from different data sources to provide a single integrated source for reporting, analysis and decision support.</p>
+            </div>
+        </div>
+
+        <!-- CERTIFICATIONS -->
+        <div class="section">
+            <h2 class="section-title">Certifications</h2>
+            <ul class="plain-list">
+                <li>Databricks Lakehouse Fundamentals</li>
+                <li>Databricks Lakehouse Data Engineer</li>
+                <li>Microsoft Azure Data Fundamentals</li>
+            </ul>
+        </div>
+
+        <!-- AWARDS & ACHIEVEMENTS -->
+        <div class="section" style="page-break-before: always;">
+            <h2 class="section-title">Awards & Achievements</h2>
+            <ul class="plain-list">
+                <li>Achiever Extraordinaire at EY</li>
+                <li>EY Appreciate</li>
+                <li>IBM Manager's Choice Awards</li>
+                <li>Deep Skill Adder Awards</li>
+                <li>GATE Qualified, 2014</li>
+                <li>Ministry of Human Resource Development Department Scholarship</li>
+            </ul>
+        </div>
+
+        <!-- PUBLICATIONS -->
+        <div class="section">
+            <h2 class="section-title">Publications</h2>
+            <p class="pub-text">Design of a compact planar quasi-Yagi antenna with enhanced gain and bandwidth using metamaterial, in: PIERS Journal, 2016 (ISBN/ISSN: 1937-6480).</p>
+        </div>
+
+    </div>
+
+    <script>
+        function downloadResume() {
+            const downloadBar = document.getElementById('download-bar');
+            downloadBar.style.display = 'none';
+            window.print();
+            setTimeout(() => { downloadBar.style.display = ''; }, 500);
+        }
+    </script>
+</body>
+</html>
